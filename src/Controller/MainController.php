@@ -14,14 +14,14 @@ class MainController extends AbstractController
     {
         $name = $request->query->get('name', 'World');
 
-        return new Response(
-            '<html><body><h1>Hello '.$name.'</h1></body></html>'
-        );
+        return $this->render('main/index.html.twig', [
+            'name' => $name,
+        ]);
     }
 
     #[Route('/contact', name: 'app_main_contact')]
     public function contact(): Response
     {
-        return new Response('Contact');
+        return $this->render('main/contact.html.twig');
     }
 }
