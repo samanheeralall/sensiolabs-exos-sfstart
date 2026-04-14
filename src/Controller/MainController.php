@@ -14,7 +14,9 @@ class MainController extends AbstractController
     {
         $name = $request->query->get('name', 'World');
 
-        return new Response('Hello '.$name);
+        return new Response(
+            '<html><body><h1>Hello '.$name.'</h1></body></html>'
+        );
     }
 
     #[Route('/contact', name: 'app_main_contact')]
