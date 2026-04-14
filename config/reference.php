@@ -364,8 +364,8 @@ use Symfony\Component\Config\Loader\ParamConfigurator as Param;
  *         named_serializers?: array<string, array{ // Default: []
  *             name_converter?: scalar|Param|null,
  *             default_context?: array<string, mixed>,
- *             include_built_in_normalizers?: bool|Param, // Whether to include the built-in normalizers // Default: true
- *             include_built_in_encoders?: bool|Param, // Whether to include the built-in encoders // Default: true
+ *             include_built_in_normalizers?: bool|Param, // Whether to includes the built-in normalizers // Default: true
+ *             include_built_in_encoders?: bool|Param, // Whether to includes the built-in encoders // Default: true
  *         }>,
  *     },
  *     property_access?: bool|array{ // Property access configuration
