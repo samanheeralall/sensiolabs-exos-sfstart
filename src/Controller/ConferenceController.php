@@ -50,12 +50,8 @@ class ConferenceController extends AbstractController
     #[Route('/{id}', name: 'app_conference_show', requirements: ['id' => '\d+'])]
     public function show(Conference $conference): Response
     {
-        return $this->json([
-            'id' => $conference->getId(),
-            'name' => $conference->getName(),
-            'description' => $conference->getDescription(),
-            'startAt' => $conference->getStartAt(),
-            'endAt' => $conference->getEndAt(),
+        return $this->render('conference/show.html.twig', [
+            'conference' => $conference,
         ]);
     }
 }
