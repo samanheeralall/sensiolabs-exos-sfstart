@@ -37,13 +37,14 @@ class ConferenceController extends AbstractController
         return new Response('Conference created');
     }
 
-    #[Route('/list', name: 'app_conference_list')]
+    #[Route('/list', name: 'app_conference_list', methods: ['GET'])]
     public function list(ConferenceRepository $conferenceRepository): Response
     {
         $conferences = $conferenceRepository->findAll();
-        $conferences = array_map(fn($c) => ['id' => $c->getId(),'name' => $c->getName(), 'description' => $c->getDescription()], $conferences);
 
-        return $this->json($conferences);
+        return $this->render('conference/list.html.twig', [
+            'conferences' => $conferences,
+        ]);
     }
 
     #[Route('/{id}', name: 'app_conference_show', requirements: ['id' => '\d+'])]
