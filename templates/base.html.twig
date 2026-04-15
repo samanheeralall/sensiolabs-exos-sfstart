@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
     <head>
         <meta charset="UTF-8">
         <title>{% block title %}Welcome!{% endblock %}</title>
@@ -22,6 +22,8 @@
         <header>
             {{ include('includes/_navbar.html.twig') }}
         </header>
-        {% block body %}{% endblock %}
+        <main class="container my-2">
+            {% block body %}{% endblock %}
+        </main>
     </body>
 </html>
