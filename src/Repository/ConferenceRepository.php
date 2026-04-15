@@ -16,6 +16,27 @@ class ConferenceRepository extends ServiceEntityRepository
         parent::__construct($registry, Conference::class);
     }
 
+    public function findBetweenDates(?\DateTimeImmutable $startDate = null, ?\DateTimeImmutable $endDate = null): array
+    {
+        if ($startDate === null && $endDate === null) {
+            throw new \InvalidArgumentException('Start date and end date must not be null');
+        }
+
+        $qb = $this->createQueryBuilder('c');
+
+        if ($startDate instanceof \DateTimeImmutable) {
+            $qb->andWhere($qb->expr()->gte('c.createdAt', ':startDate'))
+                ->setParameter('startDate', $startDate);
+        }
+
+        if ($endDate instanceof \DateTimeImmutable) {
+            $qb->andWhere($qb->expr()->lte('c.createdAt', ':endDate'))
+                ->setParameter('endDate', $endDate);
+        }
+
+        return $qb->getQuery()->getResult();
+    }
+
     //    /**
     //     * @return Conference[] Returns an array of Conference objects
     //     */
