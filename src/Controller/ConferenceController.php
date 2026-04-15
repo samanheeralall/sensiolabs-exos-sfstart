@@ -3,16 +3,18 @@
 namespace App\Controller;
 
 use App\Entity\Conference;
+use App\Repository\ConferenceRepository;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Attribute\Route;
 use Symfony\Component\Routing\Requirement\Requirement;
 
+#[Route('/conference')]
 class ConferenceController extends AbstractController
 {
     #[Route(
-        '/conference/{name}/{start}/{end}',
+        '/{name}/{start}/{end}',
         name: 'app_conference_new',
         requirements: [
             'name' => Requirement::CATCH_ALL,
@@ -33,5 +35,26 @@ class ConferenceController extends AbstractController
         $entityManager->flush();
 
         return new Response('Conference created');
+    }
+
+    #[Route('/list', name: 'app_conference_list')]
+    public function list(ConferenceRepository $conferenceRepository): Response
+    {
+        $conferences = $conferenceRepository->findAll();
+        $conferences = array_map(fn($c) => ['id' => $c->getId(),'name' => $c->getName(), 'description' => $c->getDescription()], $conferences);
+
+        return $this->json($conferences);
+    }
+
+    #[Route('/{id}', name: 'app_conference_show', requirements: ['id' => '\d+'])]
+    public function show(Conference $conference): Response
+    {
+        return $this->json([
+            'id' => $conference->getId(),
+            'name' => $conference->getName(),
+            'description' => $conference->getDescription(),
+            'startAt' => $conference->getStartAt(),
+            'endAt' => $conference->getEndAt(),
+        ]);
     }
 }
