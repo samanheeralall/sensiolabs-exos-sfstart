@@ -1,0 +1,434 @@
+[
+    {
+        "name": "SymfonyCon 2024",
+        "description": "SymfonyCon 2024 is the annual conference for Symfony developers, featuring talks, workshops, and networking opportunities.",
+        "accessible": true,
+        "prerequisites": "Basic knowledge of PHP and Symfony framework.",
+        "startAt": "2024-10-01T09:00:00Z",
+        "endAt": "2024-10-03T17:00:00Z",
+        "organization": {
+            "name": "Symfony",
+            "presentation": "The Symfony Community is a group of developers and enthusiasts who contribute to the Symfony framework and organize events like SymfonyCon."
+        }
+    },
+    {
+        "name": "PHP World Conference 2024",
+        "description": "PHP World Conference 2024 is a global event for PHP developers, covering the latest trends and technologies in the PHP ecosystem.",
+        "accessible": true,
+        "prerequisites": "Experience with PHP development.",
+        "startAt": "2024-11-15T09:00:00Z",
+        "endAt": "2024-11-17T17:00:00Z",
+        "organization": {
+            "name": "PHP Foundation",
+            "presentation": "The PHP Foundation is a non-profit organization that supports the development and growth of the PHP language and its community."
+        }
+    },
+    {
+        "name": "Web Dev Summit 2024",
+        "description": "Web Dev Summit 2024 is a conference focused on web development technologies, including front-end, back-end, and full-stack development.",
+        "accessible": true,
+        "prerequisites": "General knowledge of web development.",
+        "startAt": "2024-12-05T09:00:00Z",
+        "endAt": "2024-12-07T17:00:00Z",
+        "organization": {
+            "name": "Web Dev Community",
+            "presentation": "The Web Dev Community is a group of developers and enthusiasts who share knowledge and organize events related to web development."
+        }
+    },
+    {
+        "name": "Tech Innovators Conference 2024",
+        "description": "Tech Innovators Conference 2024 is an event that brings together technology leaders and innovators to discuss the latest advancements in technology.",
+        "accessible": true,
+        "prerequisites": "Interest in technology and innovation.",
+        "startAt": "2024-09-20T09:00:00Z",
+        "endAt": "2024-09-22T17:00:00Z",
+        "organization": {
+            "name": "Tech Innovators Network",
+            "presentation": "The Tech Innovators Network is a community of technology professionals who collaborate and share insights on the latest trends in technology."
+        }
+    },
+    {
+        "name": "Open Source Summit 2024",
+        "description": "Open Source Summit 2024 is a conference dedicated to open source software, featuring talks and workshops on various open source projects and technologies.",
+        "accessible": true,
+        "prerequisites": "Interest in open source software.",
+        "startAt": "2024-08-10T09:00:00Z",
+        "endAt": "2024-08-12T17:00:00Z",
+        "organization": {
+            "name": "Open Source Initiative",
+            "presentation": "The Open Source Initiative is a non-profit organization that promotes and protects open source software and communities."
+        }
+    },
+    {
+        "name": "AI & Machine Learning Conference 2024",
+        "description": "AI & Machine Learning Conference 2024 is an event focused on artificial intelligence and machine learning technologies, featuring expert speakers and hands-on workshops.",
+        "accessible": true,
+        "prerequisites": "Basic understanding of AI and machine learning concepts.",
+        "startAt": "2024-07-15T09:00:00Z",
+        "endAt": "2024-07-17T17:00:00Z",
+        "organization": {
+            "name": "AI Research Institute",
+            "presentation": "The AI Research Institute is a leading organization in the field of artificial intelligence research and development."
+        }
+    },
+    {
+        "name": "Cloud Computing Conference 2024",
+        "description": "Cloud Computing Conference 2024 is an event that explores the latest trends and technologies in cloud computing, including infrastructure, platforms, and services.",
+        "accessible": true,
+        "prerequisites": "Familiarity with cloud computing concepts.",
+        "startAt": "2024-06-20T09:00:00Z",
+        "endAt": "2024-06-22T17:00:00Z",
+        "organization": {
+            "name": "Cloud Computing Association",
+            "presentation": "The Cloud Computing Association is a community of professionals and organizations dedicated to advancing cloud computing technologies and practices."
+        }
+    },
+    {
+        "name": "SymfonyCon Vienna 2026",
+        "description": "SymfonyCon Vienna 2026 is the annual flagship conference for the Symfony ecosystem, bringing together contributors, trainers, and developers for two days of talks and workshops.",
+        "accessible": true,
+        "prerequisites": "Basic knowledge of PHP and Symfony framework.",
+        "startAt": "2026-05-14T09:00:00Z",
+        "endAt": "2026-05-16T17:00:00Z",
+        "organization": {
+            "name": "Symfony",
+            "presentation": "The Symfony Community is a group of developers and enthusiasts who contribute to the Symfony framework and organize events like SymfonyCon."
+        }
+    },
+    {
+        "name": "SymfonyLive Berlin 2026",
+        "description": "SymfonyLive Berlin 2026 is a regional Symfony conference offering talks and workshops focused on practical Symfony development, performance, and DX improvements.",
+        "accessible": true,
+        "startAt": "2026-09-10T09:00:00Z",
+        "endAt": "2026-09-11T18:00:00Z",
+        "organization": {
+            "name": "Symfony",
+            "presentation": "The Symfony Community organizes regional and international Symfony conferences worldwide."
+        }
+    },
+    {
+        "name": "PHP UK Conference 2027",
+        "description": "PHP UK Conference 2027 is one of Europe's largest PHP developer gatherings, featuring a single track of high-quality talks and a busy hallway track.",
+        "accessible": true,
+        "prerequisites": "Experience with PHP development.",
+        "startAt": "2027-02-18T09:00:00Z",
+        "endAt": "2027-02-19T17:00:00Z",
+        "organization": {
+            "name": "PHP London",
+            "presentation": "PHP London is a community group dedicated to promoting PHP development in the United Kingdom through meetups and conferences."
+        }
+    },
+    {
+        "name": "phpDay 2026",
+        "description": "phpDay 2026 is an Italian PHP community conference covering modern PHP practices, frameworks, testing, and architecture patterns.",
+        "accessible": false,
+        "prerequisites": "Intermediate PHP knowledge.",
+        "startAt": "2026-06-11T09:00:00Z",
+        "endAt": "2026-06-12T17:00:00Z",
+        "organization": {
+            "name": "GrUSP",
+            "presentation": "GrUSP is the Italian PHP user group organizing phpDay and other community events across Italy."
+        }
+    },
+    {
+        "name": "Forum PHP Paris 2026",
+        "description": "Forum PHP Paris 2026 is the annual gathering of the AFUP community, featuring talks in French on PHP, Symfony, and modern web architecture.",
+        "accessible": true,
+        "startAt": "2026-10-22T09:00:00Z",
+        "endAt": "2026-10-23T18:00:00Z",
+        "organization": {
+            "name": "AFUP",
+            "presentation": "AFUP (Association Française des Utilisateurs de PHP) is the French PHP user group organizing conferences and meetups throughout France."
+        }
+    },
+    {
+        "name": "DrupalCon Barcelona 2026",
+        "description": "DrupalCon Barcelona 2026 brings together the global Drupal community for a week of sessions, sprints, and contribution days covering Drupal and the broader PHP ecosystem.",
+        "accessible": true,
+        "startAt": "2026-09-28T09:00:00Z",
+        "endAt": "2026-10-02T17:00:00Z",
+        "organization": {
+            "name": "Drupal Association",
+            "presentation": "The Drupal Association is a non-profit organization that supports the Drupal open source project and its global community."
+        }
+    },
+    {
+        "name": "Laravel Live UK 2026",
+        "description": "Laravel Live UK 2026 is a community-driven conference dedicated to the Laravel ecosystem, featuring talks on packages, testing strategies, and scaling PHP applications.",
+        "accessible": false,
+        "prerequisites": "Working knowledge of Laravel or another PHP framework.",
+        "startAt": "2026-06-25T09:00:00Z",
+        "endAt": "2026-06-26T17:00:00Z",
+        "organization": {
+            "name": "Laravel Community UK",
+            "presentation": "Laravel Community UK is a volunteer-run group promoting Laravel adoption and best practices across the United Kingdom."
+        }
+    },
+    {
+        "name": "API Platform Conference 2026",
+        "description": "API Platform Conference 2026 is the reference event for API-first development with the API Platform framework, covering REST, GraphQL, Mercure, and the Admin component.",
+        "accessible": true,
+        "prerequisites": "Familiarity with REST or GraphQL API concepts.",
+        "startAt": "2026-09-17T09:00:00Z",
+        "endAt": "2026-09-18T18:00:00Z",
+        "organization": {
+            "name": "Les-Tilleuls.coop",
+            "presentation": "Les-Tilleuls.coop is a worker-owned cooperative and the main maintainer of the API Platform framework."
+        }
+    },
+    {
+        "name": "PHP[tek] 2027",
+        "description": "PHP[tek] 2027 is a North American PHP conference offering hands-on workshops and expert talks on security, performance, and software design.",
+        "accessible": true,
+        "startAt": "2027-05-19T09:00:00Z",
+        "endAt": "2027-05-21T17:00:00Z",
+        "organization": {
+            "name": "mdiabuphp",
+            "presentation": "mdiabuphp is the organising body behind the php[series] family of conferences across North America."
+        }
+    },
+    {
+        "name": "ReactConf Europe 2026",
+        "description": "ReactConf Europe 2026 is a premier European conference dedicated to the React ecosystem, covering React 20, Next.js, state management, and server components.",
+        "accessible": false,
+        "prerequisites": "Working knowledge of JavaScript and React.",
+        "startAt": "2026-07-02T09:00:00Z",
+        "endAt": "2026-07-03T18:00:00Z",
+        "organization": {
+            "name": "React Europe",
+            "presentation": "React Europe is an independent community organization producing React-focused events and content across Europe."
+        }
+    },
+    {
+        "name": "VueConf EU 2027",
+        "description": "VueConf EU 2027 is the official European Vue.js conference, featuring talks on the Composition API, Nuxt 4, and the Vue ecosystem's latest developments.",
+        "accessible": true,
+        "startAt": "2027-04-14T09:00:00Z",
+        "endAt": "2027-04-15T18:00:00Z",
+        "organization": {
+            "name": "Vue.js Community",
+            "presentation": "The Vue.js Community is a global collective of developers contributing to Vue and its surrounding ecosystem."
+        }
+    },
+    {
+        "name": "KubeCon Europe 2027",
+        "description": "KubeCon Europe 2027 is the cloud native computing flagship event, covering Kubernetes, service mesh, observability, and platform engineering at scale.",
+        "accessible": true,
+        "prerequisites": "Familiarity with containers and cloud native concepts.",
+        "startAt": "2027-03-22T09:00:00Z",
+        "endAt": "2027-03-26T17:00:00Z",
+        "organization": {
+            "name": "Cloud Native Computing Foundation",
+            "presentation": "The CNCF is a Linux Foundation project fostering open source cloud native technologies including Kubernetes, Prometheus, and Envoy."
+        }
+    },
+    {
+        "name": "SymfonyCon 2027",
+        "description": "SymfonyCon 2027 is the annual Symfony community gathering, celebrating new Symfony releases and gathering contributors, trainers, and agencies from around the world.",
+        "accessible": true,
+        "prerequisites": "Basic knowledge of PHP and Symfony framework.",
+        "startAt": "2027-11-18T09:00:00Z",
+        "endAt": "2027-11-20T17:00:00Z",
+        "organization": {
+            "name": "Symfony",
+            "presentation": "The Symfony Community is a group of developers and enthusiasts who contribute to the Symfony framework and organize events like SymfonyCon."
+        }
+    },
+    {
+        "name": "Web Summer Camp 2026",
+        "description": "Web Summer Camp 2026 is an intimate intensive conference held in Croatia combining deep-dive workshops with inspiring talks on PHP, JavaScript, and DevOps topics.",
+        "accessible": false,
+        "prerequisites": "At least two years of professional web development experience.",
+        "startAt": "2026-08-26T09:00:00Z",
+        "endAt": "2026-08-29T14:00:00Z",
+        "organization": {
+            "name": "Netgen",
+            "presentation": "Netgen is a Croatian digital agency and open source contributor that organises Web Summer Camp annually."
+        }
+    },
+    {
+        "name": "North Star PHP 2027",
+        "description": "North Star PHP 2027 is a Nordic PHP conference with a focus on clean architecture, domain-driven design, and sustainable engineering practices.",
+        "accessible": true,
+        "startAt": "2027-09-04T09:00:00Z",
+        "endAt": "2027-09-05T17:00:00Z",
+        "organization": {
+            "name": "Nordic PHP",
+            "presentation": "Nordic PHP is a community initiative promoting best practices and knowledge-sharing among PHP developers across Scandinavia and the Baltic states."
+        }
+    },
+    {
+        "name": "ScotlandPHP 2026",
+        "description": "ScotlandPHP 2026 is a single-track PHP conference in Edinburgh, known for its welcoming atmosphere and high speaker-to-attendee ratio.",
+        "accessible": true,
+        "startAt": "2026-11-06T09:00:00Z",
+        "endAt": "2026-11-07T17:00:00Z",
+        "organization": {
+            "name": "PHP Scotland",
+            "presentation": "PHP Scotland is a volunteer-run community group promoting PHP development and education in Scotland."
+        }
+    },
+    {
+        "name": "Laracon EU 2027",
+        "description": "Laracon EU 2027 is the European edition of the official Laravel conference, featuring talks on the latest Laravel features, ecosystem packages, and application architecture.",
+        "accessible": false,
+        "prerequisites": "Experience with Laravel development.",
+        "startAt": "2027-02-03T09:00:00Z",
+        "endAt": "2027-02-04T18:00:00Z",
+        "organization": {
+            "name": "Laracon",
+            "presentation": "Laracon is the official conference series dedicated to the Laravel framework, organized in partnership with local PHP communities."
+        }
+    },
+    {
+        "name": "AI Engineering Summit Paris 2026",
+        "description": "AI Engineering Summit Paris 2026 is a practitioner-focused conference on integrating AI and LLMs into production software, covering agents, RAG pipelines, evaluation, and responsible deployment.",
+        "accessible": true,
+        "prerequisites": "Software engineering background; interest in applied AI.",
+        "startAt": "2026-10-07T09:00:00Z",
+        "endAt": "2026-10-08T18:00:00Z",
+        "organization": {
+            "name": "AI Engineers Alliance",
+            "presentation": "The AI Engineers Alliance is an international community of software engineers building products and services powered by large language models."
+        }
+    },
+    {
+        "name": "PHPConf Asia 2026",
+        "description": "PHPConf Asia 2026 is the largest PHP conference in the Asia-Pacific region, gathering developers from across the continent to share expertise on PHP, frameworks, and DevOps.",
+        "accessible": true,
+        "startAt": "2026-08-06T09:00:00Z",
+        "endAt": "2026-08-07T17:00:00Z",
+        "organization": {
+            "name": "PHP Asia Community",
+            "presentation": "PHP Asia Community is a network of PHP user groups across Asia-Pacific working together to promote PHP best practices and foster local communities."
+        }
+    },
+    {
+        "name": "DevRelCon Prague 2026",
+        "description": "DevRelCon Prague 2026 is the European edition of the global DevRel conference, exploring community building, developer advocacy, content strategy, and open source governance.",
+        "accessible": false,
+        "startAt": "2026-12-01T09:00:00Z",
+        "endAt": "2026-12-02T17:00:00Z",
+        "organization": {
+            "name": "DevRelCon",
+            "presentation": "DevRelCon is a global community of developer relations professionals producing conferences and resources for advocates, evangelists, and community managers."
+        }
+    },
+    {
+        "name": "International PHP Conference Spring 2027",
+        "description": "IPC Spring 2027 is a German PHP conference featuring a wide range of tracks from security and architecture to cloud native PHP and Symfony.",
+        "accessible": true,
+        "prerequisites": "Professional PHP development experience.",
+        "startAt": "2027-05-10T09:00:00Z",
+        "endAt": "2027-05-13T17:00:00Z",
+        "organization": {
+            "name": "entwickler.de",
+            "presentation": "entwickler.de is a German technology media and events company specialising in developer-focused conferences and publications."
+        }
+    },
+    {
+        "name": "Open Source Experience 2026",
+        "description": "Open Source Experience 2026 is a Parisian event bringing together open source contributors, enterprises, and public institutions to explore open source strategy and sustainability.",
+        "accessible": true,
+        "startAt": "2026-11-18T09:00:00Z",
+        "endAt": "2026-11-19T18:00:00Z",
+        "organization": {
+            "name": "Systematic Paris-Region",
+            "presentation": "Systematic Paris-Region is a cluster of technology companies and research organisations fostering innovation in software and digital systems."
+        }
+    },
+    {
+        "name": "SymfonyLive Paris 2027",
+        "description": "SymfonyLive Paris 2027 is the French edition of the SymfonyLive conference series, offering two days of talks and workshops on Symfony, PHP, and web architecture.",
+        "accessible": true,
+        "prerequisites": "Basic knowledge of PHP and Symfony.",
+        "startAt": "2027-03-25T09:00:00Z",
+        "endAt": "2027-03-26T18:00:00Z",
+        "organization": {
+            "name": "Symfony",
+            "presentation": "The Symfony Community organizes regional and international Symfony conferences worldwide."
+        }
+    },
+    {
+        "name": "Hack.lu 2026",
+        "description": "Hack.lu 2026 is a Luxembourg-based security conference exploring offensive and defensive security topics, with a strong focus on web application vulnerabilities and secure coding practices.",
+        "accessible": false,
+        "prerequisites": "Knowledge of web security fundamentals.",
+        "startAt": "2026-10-20T09:00:00Z",
+        "endAt": "2026-10-23T17:00:00Z",
+        "organization": {
+            "name": "CIRCL",
+            "presentation": "CIRCL (Computer Incident Response Center Luxembourg) is a government-backed initiative supporting cybersecurity research and incident response in Luxembourg."
+        }
+    },
+    {
+        "name": "DDD Europe 2027",
+        "description": "DDD Europe 2027 is a premier European conference dedicated to Domain-Driven Design, event sourcing, CQRS, and sociotechnical architecture.",
+        "accessible": true,
+        "startAt": "2027-06-16T09:00:00Z",
+        "endAt": "2027-06-18T17:00:00Z",
+        "organization": {
+            "name": "DDD Europe Foundation",
+            "presentation": "The DDD Europe Foundation is a non-profit organisation promoting Domain-Driven Design education and community building across Europe."
+        }
+    },
+    {
+        "name": "Forum PHP Paris 2027",
+        "description": "Forum PHP Paris 2027 is the AFUP flagship annual conference covering PHP core evolution, framework updates, and practical engineering topics for French-speaking developers.",
+        "accessible": true,
+        "startAt": "2027-10-21T09:00:00Z",
+        "endAt": "2027-10-22T18:00:00Z",
+        "organization": {
+            "name": "AFUP",
+            "presentation": "AFUP is the French PHP user group organising conferences and meetups throughout France."
+        }
+    },
+    {
+        "name": "MagentoLive Europe 2026",
+        "description": "MagentoLive Europe 2026 is the premier event for Adobe Commerce and Magento merchants, developers, and solution partners exploring e-commerce innovations and integrations.",
+        "accessible": false,
+        "prerequisites": "Experience with Magento or Adobe Commerce development.",
+        "startAt": "2026-09-23T09:00:00Z",
+        "endAt": "2026-09-24T17:00:00Z",
+        "organization": {
+            "name": "Adobe Commerce",
+            "presentation": "Adobe Commerce is Adobe's enterprise e-commerce platform built on the Magento open source project."
+        }
+    },
+    {
+        "name": "International PHP Conference Autumn 2028",
+        "description": "IPC Autumn 2028 is the autumn edition of Germany's long-running PHP conference, with deep-dive workshops and an expanded track dedicated to PHP-powered AI tooling.",
+        "accessible": true,
+        "prerequisites": "Professional PHP development experience.",
+        "startAt": "2028-10-08T09:00:00Z",
+        "endAt": "2028-10-11T17:00:00Z",
+        "organization": {
+            "name": "entwickler.de",
+            "presentation": "entwickler.de is a German technology media and events company specialising in developer-focused conferences and publications."
+        }
+    },
+    {
+        "name": "SymfonyCon 2028",
+        "description": "SymfonyCon 2028 marks the 20th anniversary of the Symfony framework and is expected to be the largest SymfonyCon ever, celebrating community contributions and announcing Symfony 8 roadmap milestones.",
+        "accessible": true,
+        "prerequisites": "Basic knowledge of PHP and Symfony framework.",
+        "startAt": "2028-11-08T09:00:00Z",
+        "endAt": "2028-11-10T17:00:00Z",
+        "organization": {
+            "name": "Symfony",
+            "presentation": "The Symfony Community is a group of developers and enthusiasts who contribute to the Symfony framework and organize events like SymfonyCon."
+        }
+    },
+    {
+        "name": "PHP World Conference 2027",
+        "description": "PHP World Conference 2027 is a global event for PHP developers covering language internals, JIT improvements, static analysis, and the future of the PHP ecosystem.",
+        "accessible": true,
+        "prerequisites": "Experience with PHP development.",
+        "startAt": "2027-11-10T09:00:00Z",
+        "endAt": "2027-11-12T17:00:00Z",
+        "organization": {
+            "name": "PHP Foundation",
+            "presentation": "The PHP Foundation is a non-profit organization that supports the development and growth of the PHP language and its community."
+        }
+    }
+]

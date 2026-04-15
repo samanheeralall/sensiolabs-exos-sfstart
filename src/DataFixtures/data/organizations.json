@@ -1,0 +1,142 @@
+[
+    {
+        "name": "Symfony",
+        "presentation": "The Symfony Community is a group of developers and enthusiasts who contribute to the Symfony framework and organize events like SymfonyCon.",
+        "createdAt": "2024-06-01T12:00:00Z"
+    },
+    {
+        "name": "PHP Foundation",
+        "presentation": "The PHP Foundation is a non-profit organization that supports the development and growth of the PHP language and its community.",
+        "createdAt": "2024-06-02T12:00:00Z"
+    },
+    {
+        "name": "Web Dev Community",
+        "presentation": "The Web Dev Community is a group of developers and enthusiasts who share knowledge and organize events related to web development.",
+        "createdAt": "2024-06-03T12:00:00Z"
+    },
+    {
+        "name": "Tech Innovators Network",
+        "presentation": "The Tech Innovators Network is a community of technology professionals who collaborate and share insights on the latest trends in technology.",
+        "createdAt": "2024-06-04T12:00:00Z"
+    },
+    {
+        "name": "Open Source Initiative",
+        "presentation": "The Open Source Initiative is a non-profit organization that promotes and protects open source software and communities.",
+        "createdAt": "2024-06-05T12:00:00Z"
+    },
+    {
+        "name": "PHP London",
+        "presentation": "PHP London is a community group dedicated to promoting PHP development in the United Kingdom through meetups and conferences.",
+        "createdAt": "2024-06-06T12:00:00Z"
+    },
+    {
+        "name": "GrUSP",
+        "presentation": "GrUSP is the Italian PHP user group organizing phpDay and other community events across Italy.",
+        "createdAt": "2024-06-07T12:00:00Z"
+    },
+    {
+        "name": "AFUP",
+        "presentation": "AFUP (Association Française des Utilisateurs de PHP) is the French PHP user group organizing conferences and meetups throughout France.",
+        "createdAt": "2024-06-08T12:00:00Z"
+    },
+    {
+        "name": "Drupal Association",
+        "presentation": "The Drupal Association is a non-profit organization that supports the Drupal open source project and its global community.",
+        "createdAt": "2024-06-09T12:00:00Z"
+    },
+    {
+        "name": "Laravel Community UK",
+        "presentation": "Laravel Community UK is a volunteer-run group promoting Laravel adoption and best practices across the United Kingdom.",
+        "createdAt": "2024-06-10T12:00:00Z"
+    },
+    {
+        "name": "Les-Tilleuls.coop",
+        "presentation": "Les-Tilleuls.coop is a worker-owned cooperative and the main maintainer of the API Platform framework.",
+        "createdAt": "2024-06-11T12:00:00Z"
+    },
+    {
+        "name": "mdiabuphp",
+        "presentation": "mdiabuphp is the organising body behind the php[series] family of conferences across North America.",
+        "createdAt": "2024-06-12T12:00:00Z"
+    },
+    {
+        "name": "React Europe",
+        "presentation": "React Europe is an independent community organization producing React-focused events and content across Europe.",
+        "createdAt": "2024-06-13T12:00:00Z"
+    },
+    {
+        "name": "Vue.js Community",
+        "presentation": "The Vue.js Community is a global collective of developers contributing to Vue and its surrounding ecosystem.",
+        "createdAt": "2024-06-14T12:00:00Z"
+    },
+    {
+        "name": "Cloud Native Computing Foundation",
+        "presentation": "The CNCF is a Linux Foundation project fostering open source cloud native technologies including Kubernetes, Prometheus, and Envoy.",
+        "createdAt": "2024-06-15T12:00:00Z"
+    },
+    {
+        "name": "Netgen",
+        "presentation": "Netgen is a Croatian digital agency and open source contributor that organises Web Summer Camp annually.",
+        "createdAt": "2024-06-16T12:00:00Z"
+    },
+    {
+        "name": "Nordic PHP",
+        "presentation": "Nordic PHP is a community initiative promoting best practices and knowledge-sharing among PHP developers across Scandinavia and the Baltic states.",
+        "createdAt": "2024-06-17T12:00:00Z"
+    },
+    {
+        "name": "PHP Scotland",
+        "presentation": "PHP Scotland is a volunteer-run community group promoting PHP development and education in Scotland.",
+        "createdAt": "2024-06-18T12:00:00Z"
+    },
+    {
+        "name": "Laracon",
+        "presentation": "Laracon is the official conference series dedicated to the Laravel framework, organized in partnership with local PHP communities.",
+        "createdAt": "2024-06-19T12:00:00Z"
+    },
+    {
+        "name": "AI Engineers Alliance",
+        "presentation": "The AI Engineers Alliance is an international community of software engineers building products and services powered by large language models.",
+        "createdAt": "2024-06-20T12:00:00Z"
+    },
+    {
+        "name": "AI Research Institute",
+        "presentation": "The AI Research Institute is a leading organization in the field of artificial intelligence research and development.",
+        "createdAt": "2024-06-20T12:00:00Z"
+    },
+    {
+        "name": "PHP Asia Community",
+        "presentation": "PHP Asia Community is a network of PHP user groups across Asia-Pacific working together to promote PHP best practices and foster local communities.",
+        "createdAt": "2024-06-21T12:00:00Z"
+    },
+    {
+        "name": "DevRelCon",
+        "presentation": "DevRelCon is a global community of developer relations professionals producing conferences and resources for advocates, evangelists, and community managers.",
+        "createdAt": "2024-06-22T12:00:00Z"
+    },
+    {
+        "name": "entwickler.de",
+        "presentation": "entwickler.de is a German technology media and events company specialising in developer-focused conferences and publications.",
+        "createdAt": "2024-06-23T12:00:00Z"
+    },
+    {
+        "name": "Systematic Paris-Region",
+        "presentation": "Systematic Paris-Region is a cluster of technology companies and research organisations fostering innovation in software and digital systems.",
+        "createdAt": "2024-06-24T12:00:00Z"
+    },
+    {
+        "name": "CIRCL",
+        "presentation": "CIRCL (Computer Incident Response Center Luxembourg) is a government-backed initiative supporting cybersecurity research and incident response in Luxembourg.",
+        "createdAt": "2024-06-25T12:00:00Z"
+    },
+    {
+        "name": "DDD Europe Foundation",
+        "presentation": "The DDD Europe Foundation is a non-profit organisation promoting Domain-Driven Design education and community building across Europe.",
+        "createdAt": "2024-06-26T12:00:00Z"
+    },
+    {
+        "name": "Adobe Commerce",
+        "presentation": "Adobe Commerce is Adobe's enterprise e-commerce platform built on the Magento open source project.",
+        "createdAt": "2024-06-27T12:00:00Z"
+    }
+]
